@@ -1,0 +1,446 @@
+.mobile-app-landing-page {
+  .landing-page-hero-section, .landing-page-foreground-section, .landing-page-background-section, .landing-page-bright-section, .landing-page-video-section, .landing-page-footer{
+    position: relative;
+    width: @full-size;
+    margin: 0 auto;
+  }
+  .highlight {
+    color: @suaray-main-color;
+    font: inherit;
+  }
+  // Landing Page Section
+  .landing-page-hero-section {
+    background-image: url("../img/landing-pages/mobile-app/hero-background.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    color: #fff;
+    height: 600px;
+    .mobile-app-landing-page-hero-image {
+      bottom: 0;
+      left: 13.692308%;
+      max-width: 413px;
+      position: absolute;
+      width: 31.769231%;
+    }
+    .hero-content-holder {
+      float: right;
+      height: inherit;
+      padding: 13% 0 0 0;
+      width: 50%;
+      h1, p, .app-store-icon {
+        float: left;
+      }
+      h1, p {
+        width: @full-size;
+      }
+      img.app-store-icon {
+        margin: 0 10px 10px 0;
+        min-width: 100px;
+        max-width: 165px;
+        width: 30.923077%;
+      }
+    }
+  }
+  // Foreground Section
+  .landing-page-foreground-section {
+    background: #fafafa;
+    overflow: hidden;
+    padding: 8.275862% 0;
+    .container {
+      position: relative;
+    }
+    .search-preview {
+      top: 10%;
+      left: 0;
+      max-width: 900px;
+      margin: -5% 0 0 -20%;
+      float: left;
+      width: 65%;
+    }
+    .calendar-preview {
+      max-width: 314px;
+      float: left;
+      width: 25%;
+      margin: 0px 0px 0px 24.9%;
+    }
+    .foreground-content-holder {
+      float: right;
+      width: 50%;
+      height: inherit;
+      padding: 0px 0px 0px 60px;
+      h2, p, ul {
+        float: left;
+        width: @full-size;
+      }
+      ul, li {
+        position: relative;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        li {
+          margin: 10px 0;
+          width: 100%;
+          float: left;
+          h3, p, img {
+            float: left;
+          }
+          h3 {
+            margin: 5px 0 0 0;
+          }
+          img {
+            max-width: 69px;
+            min-width: 40px;
+            padding: 0 0 20px;
+            width: 8.734177%;
+          }
+          h3, p {
+            clear: right;
+            margin: 0;
+            padding: 0 0 5px 10px;
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+  // Background Section
+  .landing-page-background-section {
+    background-image: url("../img/landing-pages/mobile-app/find-events-background.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 480px;
+    .background-content-holder {
+      float: left;
+      color: #fff;
+      padding: 9.885246% 0 0 23.076923%;
+      width: 60%;
+      h2, p, .app-store-icon {
+        float: left;
+      }
+      h2, p {
+        width: @full-size;
+      }
+      p {
+        text-transform: uppercase;
+      }
+      .app-store-icon {
+        margin: 0 10px 10px 0;
+        z-index: 99;
+      }
+    }
+    .map-preview {
+      max-width: 704px;
+      position: relative;
+      float: right;
+      top: initial;
+      right: initial;
+      pointer-events: none;
+      margin: -230px 10%;
+      min-width: 350px;
+      width: 68.153846%;
+      z-index: 9;
+    }
+  }
+  .landing-page-bright-section {
+    background-color: #fffff;
+    border: 1px solid #d7d7d7;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    height: 550px;
+    padding: 8.275862% 0;
+    .create-event-preview {
+      top: 10%;
+      right: 0%;
+      float: right;
+      width: 45%;
+    }
+    .bright-content-holder {
+      padding: 0 6%;
+      width: 50%;
+      float: left;
+      h2 {
+        margin: 0;
+      }
+      p {
+        margin: 20px 0;
+      }
+      a {
+        margin: 40px 0;
+      }
+    }
+  }
+  // Video Section
+  .landing-page-video-section {
+    iframe {
+      width: 100%;
+    }
+  }
+  // Footer Section
+  .landing-page-footer {
+    text-align: center;
+    border-bottom: 1px solid #d7d7d7;
+    p {
+      margin: 20px 0px 0px 0px;
+    }
+    .footer-get-started-button {
+      display: block;
+      margin: 20px auto 0;
+      width: 200px;
+    }
+    .site-description {
+      width: 80%;
+      margin: 20px auto 0px;
+      text-align: justify;
+      font-size: .75em;
+    }
+    .row {
+      position: relative;
+      .link-holder {
+        width: 35%;
+        margin: 25px auto;
+        font-size: 2em;
+        font-family: @title-font;
+        color: #999;
+        position: relative;
+        a {
+          color: #999;
+        }
+        .footer-link-1,
+        .footer-link-2,
+        .footer-link-3 {
+          font-size: .75em;
+          font-weight: 300;
+        }
+        .footer-link-1 {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 30%;
+          margin: 0px;
+          text-align: left;
+        }
+        .footer-link-2 {
+          width: 30%;
+          margin: 0px auto;
+        }
+        .footer-link-3 {
+          width: 30%;
+          position: absolute;
+          right: 0;
+          top: 0;
+          margin: 0px;
+          text-align: right;
+        }
+      }
+      .footer-logo {
+        margin: 20px;
+        position: absolute;
+        left: 2%;
+        top: 0;
+      }
+      .social-links {
+        position: absolute;
+        right: 2%;
+        top: 30px;
+        width: 20%;
+        a {
+          margin: 0px;
+          img {
+            display: block;
+            float: right;
+            margin: 0px 10px 0px 0px;
+          }
+        }
+        .twitter-Link {
+          margin-top: 3px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .mobile-app-landing-page {
+    .landing-page-hero-section {
+      height: 300px;
+      padding: 0;
+    .mobile-app-landing-page-hero-image {
+      display: none;
+    }
+      .hero-content-holder {
+        padding: 11%;
+        width: 100%;
+      }
+    }
+    .landing-page-foreground-section {
+        height: auto;
+        padding-bottom: 40px;
+      .search-preview {
+        margin: 0;
+        position: relative;
+        width: 80%;
+      }
+      .calendar-preview {
+        float: initial;
+        display: block;
+        position: relative;
+        width: 40%;
+        margin: 20px auto;
+      }
+      .foreground-content-holder {
+        float: left;
+        padding: 0 11%;
+        width: 100%;
+        h2, p, ul {
+        }
+        ul, li {
+        }
+        ul {
+          li {
+            h3, p, img {
+            }
+            h3 {
+            }
+            img {
+            }
+            h3, p {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+    .landing-page-background-section {
+      position: relative;
+      height: 250px;
+      .background-content-holder {
+          float: left;
+          color: #fff;
+          padding: 5.885246% 0 0 3.076923%;
+          width: 50%;
+        h2, p, .app-store-icon {
+        }
+        h2 {
+          font-size: 1.15em;
+        }
+        p {
+          font-size: .8em;
+        }
+        .app-store-icon {
+          width: 70%;
+          max-width: 176px;
+          float: left;
+        }
+      }
+      .map-preview {
+        max-width: 704px;
+        position: absolute;
+        float: left;
+        top: 20px;
+        right: 0;
+        margin: 0;
+        min-width: 325px;
+        width: 54.153846%;
+        z-index: 9;
+      }
+    }
+    .landing-page-bright-section {
+      position: relative;
+      height: auto;
+      .create-event-preview {
+        display: block;
+        margin: 0 auto;
+        float: initial;
+        position: relative;
+        right: initial;
+        top: initial;
+        width: 80%;
+      }
+      .bright-content-holder {
+        float: none;
+        height: auto;
+        overflow: hidden;
+        padding: 0px 11% 40px;
+        right: 0;
+        top: 0;
+        width: 100%;
+        p {
+        }
+        a {
+        }
+      }
+    }
+    // Video Section
+    .landing-page-video-section {
+      iframe {
+        height: 320px;
+      }
+    }
+    .landing-page-footer {
+      position: relative;
+      height: auto;
+      overflow: hidden;
+      padding: 0 0 20px 0;
+      p {
+        width: 80%;
+        margin: 0 auto 10px;
+      }
+      a {
+      }
+      .site-description {
+      }
+      .row {
+        .link-holder {
+          display: block;
+          float: none;
+          margin: 0 auto;
+          .footer-link-1,
+          .footer-link-2,
+          .footer-link-3 {
+            float: none;
+            margin: 0px auto 10px;
+            position: relative;
+            width: 100%;
+            text-align: center;
+          }
+        }
+        .footer-logo {
+          display: block;
+          float: none;
+          margin: 20px auto 10px;
+          max-width: 176px;
+          position: relative;
+          right: initial;
+          top: initial;
+          width: 50%;
+        }
+        .social-links {
+          position: relative;
+          overflow: hidden;
+          text-align: center;
+          width: 100%;
+          top: initial;
+          margin: 0px;
+          padding: 0 0 0 1.2%;
+          a {
+            margin: 20px 24px 0px;
+            display: inline-block;
+            width: 30px;
+            cursor: pointer;
+            img {
+              margin: 0 auto;
+              display: inline-block;
+            }
+            &.facebook-link {
+            }
+            &.twitter-link {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,8 @@
+/vendor
+/node_modules
+.env
+.env.*
+/public/assets/bower_components
+.DS_Store
+.idea
+public/qrcodes/qrcode*

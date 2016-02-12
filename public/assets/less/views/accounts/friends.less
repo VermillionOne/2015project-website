@@ -1,0 +1,376 @@
+/* Friends search bar styling */
+.friend-search {
+    margin: 6px 30px 0 23px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.friend-search-bar-bg-color {
+  background-color: #e9eef1;
+  font-family: @body-font;
+}
+/* End search bar */
+.friend-link-cursor {
+  cursor: pointer;
+  border: 0px solid;
+}
+.friends-container {
+  background-color: @color-suaray-white;
+  font-family: @title-font;
+  min-height: 369px;
+}
+.friends-user-list {
+  width: 100%;
+  overflow: auto;
+  margin: 0 0 20px 0;
+}
+.friends-image-thumb {
+  overflow: hidden;
+  border-radius: 360px;
+  -moz-border-radius: 360px;
+  height: 50px;
+  width: 50px;
+  margin-top: 11px;
+  border: 1px solid #cccccc;
+  float: left;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.friends-text-container {
+    overflow: auto;
+}
+.friends-name-container {
+  margin: 10px 0 0 10px;
+  color: #000;
+  text-transform: capitalize;
+  label{
+    font-family: nexabold;
+    text-decoration: none;
+    color: #000000;
+    text-indent: 0px;
+  }
+}
+.friends-request-container {
+  margin: 13px 0 0 10px;
+  color: #000;
+  text-transform: capitalize;
+  label{
+    margin: 0px 5px;
+    text-indent: 0px;
+  }
+}
+  .friend-active-status {
+  margin-left: 10px;
+  color:#51A351;
+  font-size: 10px;
+}
+.friend-accept-deny-btn {
+  padding-top: 5px;
+  font-size: 10px;
+}
+.friend-close-btn {
+  padding-top: 5px;
+  font-size: 10px;
+}
+.accept-small {
+  font-size: 10px;
+  margin-right: 3px;
+}
+.accept-btn {
+  color: rgb(52, 150, 207);
+  border: 1px solid;
+  &:hover {
+    color: rgb(52, 150, 207);
+    border: 1px solid;
+  }
+}
+.deny-btn {
+  border: 1px solid #ccc;
+}
+.invite-user-image {
+  overflow: auto;
+  width: 54px;
+  float:left;
+}
+.invite-user-checkbox {
+  margin: auto;
+  text-align: center;
+}
+.friends-invite-nav {
+    border-bottom: 1px solid #cccccc;
+    padding: 5px 0px;
+}
+.friends-option-title {
+  color: #000000;
+}
+.friends-notification-title {
+  padding-top: 11px;
+}
+.friends-options-list {
+  margin: 5px 0 -6px;
+}
+.friends-select-box-dropdown {
+  width: 11em !important;
+  line-height: 30px;
+  height: auto;
+}
+.friends-btn {
+  font-size: 10px;
+}
+.friends-invite-confirmation {
+  text-align: center;
+  padding:100px;
+}
+.friends-search-container {
+  margin: 2px 0 0 10px;
+}
+.friends-search-list {
+  width:100%;
+  overflow:auto;
+}
+.friends-search-thumb {
+  overflow: hidden;
+  border-radius: 360px;
+  -moz-border-radius: 360px;
+  height:25px;
+  width: 25px;
+  border: 1px solid #cccccc;
+  float: left;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.user-list {
+  width: 50%;
+  min-width: 219px;
+  opacity: 100%;
+  z-index: 10;
+  padding: 0px;
+  -webkit-box-shadow: 4px 3px 13px 1px rgba(204,204,204,0.29);
+  -moz-box-shadow: 4px 3px 13px 1px rgba(204,204,204,0.29);
+  box-shadow: 4px 3px 13px 1px rgba(204,204,204,0.29);
+  font-family: @body-font;
+}
+.user-list ul {
+  margin: 0;
+  padding: 0;
+  background: #FDF6E3;
+}
+.user-list li {
+  margin: 0;
+  padding: 10px 10px 4px 10px;
+}
+.user-list a {
+  display: block;
+  text-decoration: none;
+}
+.user-list li:hover {
+  background: #e9eef1;
+}
+.user:last-child {
+  border-bottom:none;
+}
+.user-info {
+  font-size: 12px;
+  margin: 4px 0;
+}
+.friend-name-text {
+  margin-left: 13px;
+}
+.friends-overlay-wrapper {
+  position: relative;
+  height: 0;
+}
+.friends-overlay {
+    position:absolute;
+    right: 30px;
+    background-color: @color-suaray-white;
+    border: 1px solid #cccccc;
+    z-index: 2;
+    overflow: overlay;
+    max-height: 280px
+}
+.invite-search-box {
+margin: 4px 10px 0 0;
+}
+.friend-search-box {
+margin: -1px 10px 0 0;
+}
+.friends-filter-list {
+  margin: 4px 0 0 -31px;
+}
+.friends-back-btn {
+  margin: 14px 0 0 0;
+}
+.friends-container-margin {
+  margin: 0 12px 0 22px;
+}
+.friends-padding {
+  padding-left: 46px;
+}
+div.friends-view-link {
+    position: relative;
+}
+div.friends-view-link a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+div.friends-view-link:hover {
+  background-color: #e9eef1;
+}
+
+.delete-btn {
+  padding: 4px 0 0 4px;
+  color: @color-suaray-white;
+}
+.friend-request-link {
+  font-family: nexabold;
+  text-decoration: none;
+  color: #000000;
+}
+.friend-request-link a {
+  text-decoration: none;
+  color: #000000;
+}
+.friend-request-link:hover {
+    text-decoration: none;
+    color: @color-flat-black;
+}
+.friends-invite-nav {
+  &.navbar{
+    border-radius: 0px;
+  }
+  .navbar-brand {
+    padding: 15px 15px 0px 0px;
+    font-family: @title-font;
+    width: 125px;
+  }
+}
+  .friend-nav-item {
+  padding: 4px 15px 0px 0px;
+}
+
+.btn-delete {
+  float: right;
+  padding: 0;
+}
+.friend-position {
+  position: relative;
+}
+.friend-event-invite-btn {
+  min-width: 4.9em;
+  color: @color-suaray-white;
+  margin: 3px 0 0 9px;
+  background-color: #2A5677;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-weight: 700;
+  font-weight: 100;
+}
+.temp-select-margin {
+  margin: -5px -17px 0 0;
+  height: 2.1em;
+}
+.notification-row {
+  min-height: 5em;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+.notification-sub-text {
+  font-size: 11px;
+  padding: 2px 0;
+  display: block;
+}
+.friend-request-image {
+  overflow: hidden;
+  border-radius: 360px;
+  -moz-border-radius: 360px;
+  height: 52px;
+  width: 52px;
+  border: 1px solid #cccccc;
+  float: left;
+  margin-top: -6px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.friend-box {
+  margin: 20px 15px 40px;
+  padding-bottom: 20px;
+  font-weight: 100;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+.notification-calendar {
+  font-size: 3em;
+}
+
+/* Phone layout for invite modal */
+@media only screen and (max-width : 767px) {
+.friends-overlay {
+    position: absolute;
+    /* width: 58%; */
+    right: 2.5em;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    z-index: 2;
+    overflow: overlay;
+    max-height: 280px;
+    width: 21.5em;
+}
+}
+@media (max-width: 480px) {
+  .friends-image-thumb {
+    height: 50px;
+    margin-top: 11px;
+    width: 50px;
+  }
+  .friends-text-container {
+    margin: 0 0 0 6px;
+  }
+  .friend-close-btn {
+    margin: 0 0 0 0;
+  }
+  .friend-accept-deny-btn {
+    padding-top: 0px;
+    margin-left: -25px;
+  }
+  .friend-box {
+    margin: 20px 0px 40px;
+  }
+  .notification-calendar {
+  font-size: 2em;
+  margin-top: 3px;
+  }
+  .friend-request-image {
+    height: 40px;
+    width: 40px;
+    margin-top: 0px;
+  }
+}
+/* Extra Small Phones */
+@media only screen and (max-width : 320px) {
+.friends-overlay {
+    position: absolute;
+    /* width: 58%; */
+    right: 2.5em;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    z-index: 2;
+    overflow: overlay;
+    max-height: 280px;
+    width: 18.5em;
+}
+}

@@ -1,0 +1,237 @@
+/* Custom Alert */
+.no-margin-bottom-alert {
+  margin-bottom: 0pc;
+}
+
+/* Styles for Home Carousel */
+
+#header-carousel.carousel.slide.sell-tickets-carousel {
+  .carousel-indicators {
+    bottom: 95px;
+    .active {
+      background-color: @suaray-main-color;
+      border: 1px solid @suaray-main-color;
+    }
+    li {
+      background-color: @color-suaray-white;
+      border: 1px solid @color-suaray-white;
+    }
+  }
+  .carousel-inner {
+    .item {
+      height: 100%;
+      overflow: hidden;
+      &.active {
+        height: 100%;
+      }
+      .home-hero-overlay {
+        background: rgba(0,0,0,.5);
+        color: @color-suaray-white;
+        height: 500px;
+        padding: 9% 0 0;
+        position: absolute;
+        width: 100%;
+        p.sponsored-badge {
+          z-index: 99;
+          position: absolute;
+          right: -49px;
+          top: 24px;
+          width: initial;
+          font-weight: 700;
+          font-size: 1.429em;
+          padding: 5px 41px;
+          color: #fff;
+          text-shadow: -1px -1px 1px rgba(63, 54, 5, 0.15);
+          -ms-transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05), 0px -1px 1px rgba(0, 0, 0, 0.025), inset 0px -10px 40px rgba(0, 0, 0, 0.15);
+          transform: rotate(45deg);
+          text-transform: uppercase;
+          background: #e5cf09;
+          background: -moz-linear-gradient(-45deg, #e5cf09 0%, #c1a517 100%);
+          background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #e5cf09), color-stop(100%, #c1a517));
+          background: -webkit-linear-gradient(-45deg, #e5cf09 0%, #c1a517 100%);
+          background: -o-linear-gradient(-45deg, #e5cf09 0%, #c1a517 100%);
+          background: -ms-linear-gradient(-45deg, #e5cf09 0%, #c1a517 100%);
+          background: linear-gradient(135deg, #e5cf09 0%, #c1a517 100%);
+        }
+        h1, p {
+          text-align: center;
+          width: 100%;
+          padding: 0 10%;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          margin: 10px auto;
+        }
+        p {
+          a.btn.btn-suaray.btn-lg.btn-suaray-primary {
+
+          }
+        }
+      }
+      .home-hero-info {
+        background: rgba(0,0,0,.5);
+        bottom: 0px;
+        height: 100px;
+        position: absolute;
+        width: 100%;
+        .container {
+          padding: 0 30px;
+          position: relative;
+        }
+        img {
+          float: left;
+          margin: 0px 36px 0px 0px;
+        }
+        h3 {
+          color: @suaray-main-color;
+          float: left;
+          margin: 16px 0 0;
+          width: 60%;
+        }
+        .home-hero-info-event-description{
+          color: @color-suaray-white;
+          display: block; /* Fallback for non-webkit */
+          float: left;
+          margin: 5px 0 0;
+          overflow: hidden;
+          position: relative;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          width: 60%;
+        }
+        a {
+          position: absolute;
+          top: 27px;
+          right: 30px;
+        }
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+/* Styles for Home Full and Helf Sections*/
+.home-full-section {
+  color: @color-suaray-white;
+  overflow: auto;
+  position: relative;
+  width: 100%;
+  .container {
+    padding: 0;
+    width: @full-size;
+    .row {
+      .col-sm-6 {
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        height: 50vw;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        &:nth-child(1){
+          background-image: url("../img/discover-background.jpg");
+        }
+        &:nth-child(2){
+          background-image: url("../img/sell-tickets-background.jpg");
+        }
+        .home-half-section-holder {
+          background: rgba(0,0,0,.5);
+          bottom: 0;
+          height: 100%;
+          position: absolute;
+          padding: 39.44444% 0 0;
+          top: 0;
+          width: 100%;
+          h2, p, a {
+            position: relative;
+            text-align: center;
+            margin: auto auto;
+            width: auto;
+          }
+          h2 {
+            text-transform: uppercase;
+          }
+          p {
+            width: 15em;
+            text-transform: capitalize;
+          }
+          a.btn-suaray.btn-lg {
+            display: block;
+            font-size: 1em;
+            margin-top: 10px;
+            width: 11em;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #header-carousel.carousel.slide.sell-tickets-carousel {
+    .carousel-indicators {
+      bottom: 55px;
+      .active {
+      }
+      li {
+      }
+    }
+    .carousel-inner {
+      .item {
+        &.active {
+        }
+        .home-hero-overlay {
+          h1 {
+            text-align: center;
+            width: 80%;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            margin: 10px auto;
+          }
+          p {
+            a.btn.btn-suaray.btn-lg.btn-suaray-primary {
+            }
+          }
+        }
+        .home-hero-info {
+          height: 60px;
+          .container {
+          }
+          img {
+            width: 40px;
+          }
+          h3 {
+            display: none;
+          }
+          .home-hero-info-event-description{
+            display: none;
+            visibility: hidden;
+          }
+          a {
+            top: 10px;
+          }
+        }
+        img {
+        }
+      }
+    }
+  }
+.home-full-section {
+  .container {
+    .row {
+      margin-right: 0px;
+      margin-left: 0px;
+        .col-sm-6 {
+          height: 65vw;
+          .home-half-section-holder {
+            padding: 12% 0 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.photo-gallery-main-image-position {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+.gallery-padding {
+  padding: 0em 4.5em 0 14px;
+}
+@media screen and (max-width: 980px) {
+  .gallery-padding {
+      padding: 0 0 0 14px;
+  }
+}
+/* Phone layout for gallery */
+@media only screen and (max-width : 767px) {
+  .overlay {
+    opacity: 1;
+    width: 92%;
+  }
+  .btn-gallery{
+    margin: 12em 0 0;
+    border-top: 1px solid @color-suaray-white;
+    z-index: 9999;
+  }
+  .hidden-mobile {
+    display: none;
+  }
+  .event-gallery-pic{
+      height: 100%;
+      width: 100%;
+  }
+  .gallery-padding {
+    padding: 0px 2.2em 0 2.1em;
+  }
+
+}
+/* Extra Small Phones */
+@media only screen and (max-width : 320px) {
+  .overlay {
+    opacity: 1;
+    width: 90.5%;
+  }
+  .btn-gallery{
+    margin: 10.3em 0 0;
+    border-top: 1px solid @color-suaray-white;
+    z-index: 9999;
+  }
+  .event-gallery-pic{
+    height: 100%;
+    width: 100%;
+  }
+  .gallery-padding {
+    padding: 0px 2.4em 0 29px;
+  }
+  .hidden-mobile {
+    display: none;
+  }
+}
